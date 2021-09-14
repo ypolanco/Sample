@@ -1,0 +1,24 @@
+.nav {
+	display: flex; 
+    justify-content: flex-end; 
+    background-color: black; 
+}
+
+.nav a{
+	color: rgb(255,255,255);
+    text-decoration: none; 
+    padding: 14px 16px; 
+    font-size: 17px;
+}
+
+/* .nav a:hover {
+	background-color: rgb(255,255,255); 
+    color: rgb(0,0,0); 
+    transform: scale(1.2);
+} */
+
+.home:hover, .about:hover, .contact:hover, .login:hover {
+	background-color: rgb(255,255,255); 
+    color: rgb(0,0,0); 
+    transform: scale(1.2);
+}
